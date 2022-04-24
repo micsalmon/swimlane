@@ -44,7 +44,7 @@ context('Login Page', () => {
       login.errLogin.should('be.visible');
     });
 
-    it.only('Login successful', () => {
+    it('Login successful', () => {
       login.login(credentials.GOOD_USERNAME, credentials.GOOD_PASSWORD);
       cy.url().should('contain', url.WELCOME_PAGE);
     });
