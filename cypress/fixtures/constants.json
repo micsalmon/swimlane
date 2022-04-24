@@ -1,0 +1,21 @@
+{
+  "urls": {
+    "LOGIN_PAGE": "/login",
+    "WELCOME_PAGE": "/welcome"
+  },
+
+  "msg": {
+    "WELCOME_MESSAGE": "Welcome to Swimlane"
+  },
+
+  "credentials": {
+    "GOOD_PASSWORD": "64gFNTxUvb7Xwt",
+    "BAD_PASSWORD": "Password",
+    "GOOD_USERNAME": "michael.salmon",
+    "BAD_USERNAME": "michael"
+  },
+  
+  "profile": {
+    "PROFILE": "Profile"
+  }
+}
